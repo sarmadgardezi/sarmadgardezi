@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 <div align="left">
-    <p><a href="https://twitter.com/MrAhmadAwais/"><img alt="Twitter @SarmadGardezi" align="center" src="https://img.shields.io/badge/-@MrAhmadAwais-gray.svg?colorA=6A788D&colorB=1da1f2&style=for-the-badge" /></a>&nbsp;<small> <strong>(follow)</strong> To get <a href="https://twitter.com/search?q=(%23wordpress)%20(from%3Asarmadgardezi)&src=typed_query">#WordPress</a> development tips</small></p>
+    <p><a href="https://twitter.com/MrAhmadAwais/"><img alt="Twitter @SarmadGardezi" align="center" src="https://img.shields.io/twitter/follow/sarmadgardezi?label=SarmadGardezi&style=social" /></a>&nbsp;<small> <strong>(follow)</strong> To get <a href="https://twitter.com/search?q=(%23wordpress)%20(from%3Asarmadgardezi)&src=typed_query">#WordPress</a> development tips</small></p>
     <p><a href="https://www.youtube.com/c/sarmadgardezi"><img alt="YouTube Sarmad Gardezi" align="center" src="https://img.shields.io/badge/YOUTUBE-gray.svg?colorA=6A788D&colorB=6A788D&style=for-the-badge" /></a>&nbsp;<small><strong>(subscribe)</strong> Tech talks & SEO videos</small></p>
     <p><a href="https://AhmadAwais.com/"><img alt="Blog: sarmadgardezi.com" align="center" src="https://img.shields.io/badge/-MY%20BLOG-gray.svg?colorA=6A788D&colorB=6A788D&style=for-the-badge" /></a>&nbsp;<small><strong>(read)</strong> In-depth & long form technical articles</small></p>
     <p><a href="https://www.linkedin.com/in/sarmadgardezi/"><img alt="LinkedIn @sarmadgardezi" align="center" src="https://img.shields.io/badge/LINKEDIN-gray.svg?colorA=6A788D&colorB=6A788D&style=for-the-badge" /></a>&nbsp;<small><strong>(connect)</strong> On the LinkedIn profile y'all</small></p>
