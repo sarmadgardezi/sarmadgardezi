@@ -9,6 +9,9 @@
 
 <small><strong>❯❯ Professional Development Courses ↓</strong></small>
 <p><b>C O M M I N G     S O O N </b></p>
-[s]: https://github.com/sarmadgardezi
+[s]: https://github.com/sarmadgardezi/sponsor
+[n]: https://NodeCLI.com?utm_source=github&utm_medium=referral&utm_campaign=profile
+[v]: https://VSCode.pro?utm_source=github&utm_medium=referral&utm_campaign=profile
+[d]: https://DenoBeginner.com?utm_source=github&utm_medium=referral&utm_campaign=profile
 [g]: https://github.com/sarmadgardezi
 
