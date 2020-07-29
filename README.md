@@ -21,7 +21,7 @@ Here are some ideas to get you started:
     <p><a href="https://www.linkedin.com/in/sarmadgardezi/"><img alt="LinkedIn @sarmadgardezi" align="center" src="https://img.shields.io/badge/LINKEDIN-gray.svg?colorA=6A788D&colorB=6A788D&style=for-the-badge" /></a>&nbsp;<small><strong>(connect)</strong> On the LinkedIn profile y'all</small></p>
 </div>
 
-[![Sponsor Awais](https://raw.githubusercontent.com/ahmadawais/stuff/master/sponsor/sponsor.jpg)][s]
+[![Sponsor Awais](https://github.com/SarmadGardezi/Sponsor/blob/master/sponsor.png)][s]
 
 <small><strong>❯❯ Professional Development Courses ↓</strong></small>
 
