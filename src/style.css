@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;600&family=Inconsolata&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600&family=Open+Sans:wght@400;600&family=Roboto+Mono&display=swap');
 
 :root {
   /* Colors */
@@ -7,42 +7,46 @@
   --link-color: white;
   --border-color: #111;
   --heading-font-color: var(--primary);
-  --background-color: #252525;
-  --sidebar-color: #2b2b2b;
-  --navbar-color: #181818;
-  --navbar-color-hover: #272727;
-  --sidebar-color-hover: #383838;
-  --sidebar-color-focus: #444;
-  --category-background-color: #161616;
-  --category-background-color-hover: #1f1f1f;
-  --light-border-color: #444;
+  --background-color: #282c34;
+  --sidebar-color: #373d49;
+  --navbar-color: #1c1e24;
+  --navbar-color-hover: #21242c;
+  --sidebar-color-hover: #464e5f;
+  --sidebar-color-focus: #57637c;
+  --category-background-color: #1c1e24;
+  --category-background-color-hover: #24272e;
+  --light-border-color: rgba(255, 255, 255, 0.1);
   --toolbar-background-color: #181818;
   --toolbar-color: #eee;
-  --font-color: #b3b9c5;
-  --medium-font-color: #aaa;
-  --dark-font-color: #8f949d;
+  --font-color: #d0d5df;
+  --dark-font-color: rgba(235, 240, 255, 0.5);
   --bright-font-color: #eee;
-  --input-background: #393939;
-  --blockquote-background-color: rgba(0, 0, 0, 0.4);
-  --blockquote-color: var(--dark-font-color);
+  --input-background: rgba(0, 0, 0, 0.3);
+  --blockquote-background-color: rgba(0, 0, 0, 0.3);
+  --blockquote-color: #b3b9c5;
   --black: #111;
-  --inline-code-background-color: rgba(255, 255, 255, 0.08);
-  --inline-code-color: #b3b9c5;
+  --inline-code-background-color: #393e4b;
+  --inline-code-color: #d0d5df;
   --dark-opacity: rgba(0, 0, 0, 0.2);
   --dark-opacity-hover: rgba(0, 0, 0, 0.3);
-  --reverse: #111;
-  --scrollbar: var(--border-color);
-  --scrollbar-track: var(--light-border-color);
+  --reverse: var(--background-color);
+  --scrollbar: var(--navbar-color);
+  --scrollbar-track: var(--sidebar-color-hover);
   --yellow: #ffd479;
   --button-color: #6b76f3;
+  --button-font-color: white;
   --page-width: 850px;
 
   /* Font */
-  --font-family: 'IBM Plex Serif', -apple-system, BlinkMacSystemFont,
+  --font-family: 'Open Sans', 'Source Sans 3', -apple-system, BlinkMacSystemFont,
     'Helvetica Neue', 'Roboto', Roboto, Arial, 'Noto Sans', sans-serif,
     'Apple Color Emoji', 'Segoe UI', 'Segoe UI Emoji', 'Segoe UI Symbol',
     'Noto Color Emoji';
-  --heading-font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue',
+  --heading-font-family: 'League Spartan', -apple-system, BlinkMacSystemFont,
+    'Helvetica Neue', 'Roboto', Roboto, Arial, 'Noto Sans', sans-serif,
+    'Apple Color Emoji', 'Segoe UI', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+  --post-font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue',
     'Roboto', Roboto, Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
     'Segoe UI', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   --code-font-family: Menlo, 'Roboto Mono', Courier New, monospace;
@@ -60,11 +64,11 @@ button:focus-visible {
 }
 
 body {
-  --webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
   margin: 0;
   font-family: var(--font-family);
   font-size: 1rem;
-  line-height: 1.6;
+  line-height: 1.65;
   color: var(--font-color);
   background: var(--navbar-color);
 }
@@ -74,7 +78,7 @@ ol,
 ul,
 table,
 blockquote {
-  font-size: 1.2rem;
+  font-size: 1.05rem;
   margin: 0 0 2rem;
   color: var(--font-color);
 }
@@ -86,7 +90,7 @@ button {
   border: none;
   background: transparent;
   cursor: pointer;
-  font-family: var(--heading-font-family);
+  font-family: var(--post-font-family);
   border-radius: 8px;
 }
 
@@ -115,19 +119,23 @@ h5 {
   line-height: 1.2;
   color: var(--heading-font-color);
   scroll-margin-top: 80px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 h3,
 h4,
 h5 {
   color: var(--secondary);
-  font-weight: 500;
+  font-weight: 400;
+}
+
+h4 {
+  font-weight: 400;
+  letter-spacing: 0.05rem;
 }
 
 a {
   text-decoration: none;
-  font-family: var(--heading-font-family);
 }
 
 /* Button */
@@ -136,9 +144,9 @@ a.button {
   display: block;
   border: 1px solid var(--button-color) !important;
   background: var(--button-color);
-  color: var(--reverse);
+  color: var(--button-font-color);
   padding: 0.75rem 1.25rem;
-  font-family: var(--heading-font-family);
+  font-family: var(--post-font-family);
   border-radius: 8px;
   text-align: center;
   line-height: 1.2;
@@ -147,6 +155,7 @@ a.button {
 }
 
 a.button:hover {
+  color: var(--button-font-color);
   background: var(--button-color);
   filter: brightness(1.2);
 }
@@ -176,7 +185,7 @@ table {
   overflow-x: auto;
   border-radius: 8px;
   font-size: 0.95rem;
-  font-family: var(--heading-font-family);
+  font-family: var(--post-font-family);
   -webkit-text-size-adjust: none;
 }
 
@@ -367,9 +376,9 @@ tbody tr:last-child td:last-of-type {
   align-items: center;
   font-size: 0.85rem;
   line-height: 1.2;
-  color: var(--medium-font-color);
+  color: var(--font-color);
   padding: 0.4rem 1rem;
-  font-family: var(--heading-font-family);
+  font-family: var(--post-font-family);
   border-left: 3px solid transparent;
 }
 
@@ -431,7 +440,7 @@ tbody tr:last-child td:last-of-type {
   display: flex;
   align-items: center;
   padding: 0.5rem 1.5rem;
-  font-family: var(--heading-font-family);
+  font-family: var(--post-font-family);
   height: 100%;
   justify-content: space-between;
   max-width: var(--page-width);
@@ -553,13 +562,12 @@ tbody tr:last-child td:last-of-type {
 }
 
 .hero h1 {
-  color: var(--secondary);
   font-size: 3rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .hero p.subtitle {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .hero .hero-buttons {
@@ -604,8 +612,8 @@ article header {
 }
 
 article h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
+  font-size: 2.6rem;
+  font-weight: 600;
   margin-bottom: 0.75rem;
   color: var(--bright-font-color);
 }
@@ -614,7 +622,7 @@ article h2,
 article h3,
 article h4,
 article h5 {
-  margin: 0 0 1.25rem 0;
+  margin: 0 0 1rem 0;
 }
 
 article h4 {
@@ -623,10 +631,10 @@ article h4 {
 }
 
 article .description {
-  font-size: 1.45rem;
+  font-size: 1.4rem;
   margin-bottom: 0;
+  line-height: 1.4;
   color: var(--dark-font-color);
-  font-family: var(--heading-font-family);
 }
 
 .post-image {
@@ -636,7 +644,7 @@ article .description {
 .post-details {
   margin: 0.5rem 0;
   color: var(--dark-font-color);
-  font-family: var(--heading-font-family);
+  font-family: var(--post-font-family);
   font-size: 0.9rem;
 }
 
@@ -645,7 +653,7 @@ article .description {
 }
 
 .tags {
-  font-family: var(--heading-font-family);
+  font-family: var(--post-font-family);
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
@@ -682,7 +690,7 @@ article a {
 
 article a:hover {
   background: var(--primary);
-  color: var(--reverse);
+  color: var(--background-color);
   border-top: 2px solid var(--primary);
   border-bottom: 2px solid var(--primary);
 }
@@ -699,31 +707,32 @@ article img {
 }
 
 article h2 {
-  font-size: 1.9rem;
+  font-size: 2.2rem;
   padding-bottom: 0.25rem;
+  font-weight: 600;
 }
 
-article h2 code {
-  font-size: 2.2rem !important;
+article h2 code[class*='language-'] {
+  font-size: 2rem !important;
   border-bottom: 1px solid var(--border-color);
 }
 
 article h3 {
-  font-size: 1.75rem;
+  font-size: 2rem;
 }
 
-article h3 code {
-  font-size: 1.6rem !important;
+article h3 code[class*='language-'] {
+  font-size: 1.8rem !important;
 }
 
 article h4 {
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   padding-bottom: 0.25rem;
   text-transform: uppercase;
 }
 
-article h4 code {
-  font-size: 1.25rem !important;
+article h4 code[class*='language-'] {
+  font-size: 1rem !important;
 }
 
 article h5 {
@@ -743,7 +752,7 @@ blockquote {
   border-left: 4px solid var(--primary);
   background: var(--blockquote-background-color);
   border-radius: 8px;
-  font-family: var(--heading-font-family);
+  font-family: var(--post-font-family);
 }
 
 blockquote p {
@@ -789,7 +798,7 @@ a.post:hover,
 a.post.new {
   background: var(--dark-opacity);
   border: 1px solid transparent;
-  font-family: var(--heading-font-family);
+  font-family: var(--post-font-family);
   border-radius: 8px;
 }
 
@@ -821,6 +830,7 @@ a.post h3 {
   font-weight: 500;
   color: var(--font-color);
   filter: brightness(1);
+  font-family: var(--post-font-family);
 }
 
 a.post:hover h3 {
@@ -887,7 +897,7 @@ a.post time {
   margin-bottom: 1rem;
   text-align: center;
   color: var(--font-color);
-  font-family: var(--heading-font-family);
+  font-family: var(--post-font-family);
 }
 
 .project .links {
@@ -987,6 +997,7 @@ a.gatsby-resp-image-link {
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid var(--light-border-color);
+  font-weight: 400;
 }
 
 .main-header a {
@@ -1092,7 +1103,7 @@ main {
   background: var(--navbar-color);
   border-top: 1px solid var(--light-border-color);
   padding: 3rem 0;
-  font-family: var(--heading-font-family);
+  font-family: var(--post-font-family);
 }
 
 .footer section {
@@ -1140,7 +1151,7 @@ main {
   ul,
   table,
   blockquote {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin: 0 0 1.5rem;
   }
 
@@ -1287,7 +1298,7 @@ main {
   }
 
   article h1 {
-    font-size: 2.2rem;
+    font-size: 2.3rem;
     line-height: 1.2;
   }
 
@@ -1300,11 +1311,11 @@ main {
   }
 
   article .description {
-    font-size: 1.3rem;
+    font-size: 1.25rem;
   }
 
   a.post h3 {
-    font-size: 1rem;
+    font-size: 1.05rem;
   }
 
   .project img {
@@ -1312,10 +1323,35 @@ main {
   }
 }
 
+#lists h2 {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+#lists h3 {
+  margin-top: 0;
+}
+
+#lists img {
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin-right: 1rem;
+}
+
+#lists p {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--light-border-color);
+}
+
 /* Resume */
 
 #resume header {
   text-align: left;
+}
+
+#resume .container {
+  padding-top: 0;
 }
 
 #resume section h2,
@@ -1330,6 +1366,7 @@ main {
   margin-top: 2.5rem;
   font-size: 1.1rem;
   text-transform: uppercase;
+  font-weight: 400;
   border-bottom: 1px solid var(--light-border-color);
 }
 
@@ -1337,18 +1374,15 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-weight: 600;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 #resume section h3 span {
   display: block;
   font-size: 1rem;
   font-weight: 400;
-}
-
-#resume section h3 {
-  font-size: 1.3rem;
-  margin-bottom: 0.5rem;
 }
 
 #resume section p,
@@ -1360,4 +1394,3 @@ main {
 #resume section li {
   margin-bottom: 0.5rem;
 }
-/* Projects Css */

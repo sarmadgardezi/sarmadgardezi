@@ -15,9 +15,8 @@
   --category-background-color-hover: #c0c0c0;
   --toolbar-color: #333;
   --toolbar-background-color: #f0f0f0;
-  --font-color: #454545;
-  --medium-font-color: #555;
-  --dark-font-color: #888;
+  --font-color: #343434;
+  --dark-font-color: #777;
   --input-background: transparent;
   --bright-font-color: #222;
   --blockquote-background-color: rgba(0, 0, 0, 0.02);
@@ -33,6 +32,15 @@
   --scrollbar-track: #bbb;
   --yellow: #e59e32;
   --button-color: var(--primary);
+  --button-font-color: white;
+}
+
+.light p,
+.light ol,
+.light ul,
+.light table,
+.light blockquote {
+  -webkit-font-smoothing: auto;
 }
 
 .light pre[class*='language-'] {
@@ -51,4 +59,8 @@
 
 .light .filename {
   border: 1px solid #171717;
+}
+
+.light a.anchor.before svg {
+  fill: var(--primary);
 }

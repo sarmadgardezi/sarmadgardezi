@@ -5,118 +5,84 @@ import { Link } from 'gatsby'
 import { Layout } from '../components/Layout'
 import { SEO } from '../components/SEO'
 import config from '../utils/config'
-import takeNote from '../../content/thumbnails/tn.png'
-import laconia from '../../content/thumbnails/laconiaproject.png'
-import primitive from '../../content/thumbnails/primitiveproject.png'
-import chip8 from '../../content/thumbnails/chip8project.png'
-import newMoon from '../../content/thumbnails/new-moon.svg'
+import sg from '../../content/thumbnails/sg.png'
+import Ssummit from '../../content/thumbnails/7summit.png'
+import pkt20 from '../../content/thumbnails/pkt20.png'
+import mim from '../../content/thumbnails/mim.png'
+import comsatsmzd from '../../content/thumbnails/comsatsmzd.png'
 import github from '../assets/nav-github.png'
-import tr from '../assets/logo.png'
+import qurranonline from '../../content/thumbnails/qurranonline.png'
+import thecentrepoint from '../../content/thumbnails/thecentrepoint.png'
+import zainforhearts from '../../content/thumbnails/zainforhearts.png'
+import zeuz from '../../content/thumbnails/zeuz.png'
 
 const projectsList = [
   {
-    name: 'TakeNote',
-    slug: 'takenote',
-    tagline: 'A free, open source notes app for the web.',
-    image: takeNote,
-    url: 'https://takenote.dev',
-    writeup: '/building-takenote',
-    description: `I built this app because I wanted a simpler, IDE-like, WYSIWYG-free
-    note-taking program that would be accessible from any platform via
-    the web. I also wanted it to sync without creating users or
-    requiring a database.
-    The app allows plain text or markdown with previews, syncing,
-    internal wiki style note-linking, drag-and-drop, prettier, syntax
-    highlighting, light/dark mode, search, categorizing, and more!`,
+    name: 'Sarmad Gardezi',
+    slug: 'sarmadgardezi',
+    tagline: 'A free, open source website of sarmadgardezi.com.',
+    image: sg,
+    url: 'https://sarmadgardezi.com',
+    writeup: '/setup',
+    description: `Personal website with articles 📚, projects 🎨, and other information about me.`,
   },
   {
-    name: 'New Moon',
-    image: newMoon,
-    slug: 'new-moon',
-    tagline: 'The optimized dark theme for web development.',
-    url: 'https://taniarascia.github.io/new-moon',
+    name: 'comsatsmzd.com',
+    image: comsatsmzd,
+    slug: 'comsatsmzd',
+    tagline: 'A PHP Website with netlify CMS',
+    url: 'https://comsatsmzd.com/',
   },
   {
-    name: 'Chip8',
-    slug: 'chip8',
-    tagline: 'A retro game emulator for three platforms.',
-    image: chip8,
-    url: 'https://taniarascia.github.io/chip8',
-    writeup: '/writing-an-emulator-in-javascript-chip8',
-    description: `Chip8.js includes a CPU class that handles all the internal logic of
-    the emulator, and individual classes written for interfacing with a
-    web, command line, or native client. The emulator plays CHIP-8 ROMs
-    for simple games like Pong, Tron, and Tetris.
-    While writing this project, I learned a lot of fundamentals about
-    binary and hexadecimal base systems, how bits and bytes work along
-    with ASCII encoding and big/little endian values. I also learned
-    about CPU memory, timers, stacks, the fetch/decode/execute cycle,
-    and creating clean interfaces for the logic of your code to
-    communicate with.`,
+    name: 'mim.limited',
+    tagline: 'A WordPress CMS Website',
+    image: mim,
+    url: 'https://mim.limited/',
   },
   {
-    name: 'Laconia',
-    slug: 'laconia',
-    tagline: 'An MVC framework from scratch in PHP.',
-    image: laconia,
-    url: 'https://laconia.dev',
-    description: `In my time of working with custom PHP systems, I noticed a lot of
-    extremely messy, haphazardly put-together code, code that had no
-    sense of design or planning, and was also outdated and insecure.
-    
-    I wanted to teach myself how to make a clean system using MVC design
-    patterns and clear separation of concerns between the PHP
-    object-oriented logic, HTML routes, JavaScript interactions, and CSS
-    styles, that also utilized the latest methods for secure database
-    connections.`,
+    name: '7summit.me',
+    slug: '7summit',
+    tagline: 'An WordPress website with Custom Dev..',
+    image: Ssummit,
+    url: 'https://7summit.me/',
+    description: `An International Salt Company which sells salt.`,
   },
   {
-    name: 'Primitive',
-    slug: 'primitive',
-    tagline: 'A front-end design toolkit for responsive web apps.',
-    image: primitive,
-    url: 'https://taniarascia.github.io/primitive',
-    description: ` I made my first websites in the late '90s, when HTML was written in
-    uppercase, tables were using for creating layouts, and CSS didn't
-    exist yet. When CSS came around I learned the most basic of float
-    based layouts, but then I went off and worked another career for a
-    decade.
-    
-    When I came back, something called responsive design was all the
-    rage, and Bootstrap, Semantic UI, and Foundation were popular ways
-    to implement it. I wasn't happy using something I didn't understand,
-    and I thought those frameworks were too bloated, so I created my own
-    with Sass that I used for several design projects. Primitive was
-    created to provide helpful, browser-consistent styling for default
-    HTML elements, such as buttons, forms, tables, lists, and
-    typography.`,
+    name: 'pkt20.com',
+    slug: 'pkt20',
+    tagline: 'A Custom theme in WordPress CMS',
+    image: pkt20,
+    url: 'https://pkt20.com',
   },
 
   {
-    name: 'tania.dev',
-    slug: 'taniarascia.com',
-    tagline: 'The source of this website.',
-    url: 'https://tania.dev',
-    image: tr,
+    name: 'qurranonline.com',
+    slug: 'qurranonline',
+    tagline: 'A PHP website in Gatsby.',
+    url: 'https://www.qurranonline.com',
+    image: qurranonline,
   },
   {
-    name: 'webpack Boilerplate',
-    slug: 'webpack-boilerplate',
-    tagline: 'A sensible webpack 5 boilerplate.',
+    name: 'thecentrepoint.pk',
+    slug: 'thecentrepoint',
+    tagline: 'A WordPress Site with Custom theme.',
+    url: 'https://thecentrepoint.pk',
+    image: thecentrepoint,
   },
 
   {
-    name: 'Snek',
-    slug: 'snek',
-    tagline: 'A terminal-based Snake implementation.',
-    writeup: '/snake-game-in-javascript',
+    name: 'zainforhearts.org',
+    slug: 'zainforhearts',
+    tagline: 'A Custom PHP website with PHP CMS',
+    url: 'https://zainforhearts.org/',
+    image: zainforhearts,
   },
   {
-    name: 'Sokoban',
-    slug: 'sokoban',
-    tagline: 'A web-based Sokoban implementation.',
-    url: 'https://taniarascia.github.io/sokoban',
-    writeup: '/sokoban-game',
+    name: 'zeuz.media',
+    slug: 'zeuz',
+    tagline: 'A Custom CMS Website in PHP',
+    url: 'https://www.zeuz.media/',
+    image: zeuz,
   },
 ]
 
@@ -126,7 +92,7 @@ export default function ProjectsIndex() {
   useEffect(() => {
     async function getStars() {
       const repos = await fetch(
-        'https://api.github.com/users/taniarascia/repos?per_page=100'
+        'https://api.github.com/users/sarmadgardezi/repos?per_page=100'
       )
 
       return repos.json()
@@ -150,7 +116,7 @@ export default function ProjectsIndex() {
             <h1>Projects</h1>
             <p className="description">
               A few highlights of my open-source projects. View them all{' '}
-              <a href="https://github.com/taniarascia">on GitHub</a>.
+              <a href="https://github.com/sarmadgardezi">on GitHub</a>.
             </p>
           </div>
         </header>
@@ -163,7 +129,7 @@ export default function ProjectsIndex() {
               <div className="links tags">
                 {project.writeup && <Link to={project.writeup}>Write-up</Link>}
                 <a
-                  href={`https://github.com/taniarascia/${project.slug}`}
+                  href={`https://github.com/sarmadgardezi/${project.slug}`}
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -179,10 +145,10 @@ export default function ProjectsIndex() {
               <div className="stars">
                 {repos.find((repo) => repo.name === project.slug) && (
                   <>
-                    <img src={github} alt="Stargazers" />
+                    <img src={github} alt="sarmadgardezi.com" />
                     <span>
                       <a
-                        href={`https://github.com/taniarascia/${project.slug}/stargazers`}
+                        
                       >
                         {Number(
                           repos.find((repo) => repo.name === project.slug)

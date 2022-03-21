@@ -1,6 +1,4 @@
 import React, { Component } from 'react'
-import GitHubButton from 'react-github-btn'
-import github from '../assets/nav-github.png'
 
 export default class ProjectListing extends Component {
   render() {
@@ -15,7 +13,7 @@ export default class ProjectListing extends Component {
            
             </span>
             <div><time> 
-            <img src="{'github'}" />
+            🚀
             </time></div>
           </a>
         ))}

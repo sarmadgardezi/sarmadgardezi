@@ -44,9 +44,11 @@ export default function WebsiteIndex({ data }) {
           <div className="container">
             <div className="flex-content">
               <div>
-                <h1>Hey, I'm Sarmad.</h1>
+                <h1>Hey, I'm Sarmad<svg xmlns="http://www.w3.org/2000/svg" width="42" height="32" viewBox="0 0 22 22" fill="none" role="img" aria-labelledby="a3mn4u9tqv3kwktwphzmwxsw1e99kril" class="verification verification--verified ml-2" data-test="verified-profile"><title id="a3mn4u9tqv3kwktwphzmwxsw1e99kril">Verified</title>
+<path d="M22 11L19.56 8.21L19.9 4.52L16.29 3.7L14.4 0.5L11 1.96L7.6 0.5L5.71 3.69L2.1 4.5L2.44 8.2L0 11L2.44 13.79L2.1 17.49L5.71 18.31L7.6 21.5L11 20.03L14.4 21.49L16.29 18.3L19.9 17.48L19.56 13.79L22 11ZM8.38 15.01L6 12.61C5.61 12.22 5.61 11.59 6 11.2L6.07 11.13C6.46 10.74 7.1 10.74 7.49 11.13L9.1 12.75L14.25 7.59C14.64 7.2 15.28 7.2 15.67 7.59L15.74 7.66C16.13 8.05 16.13 8.68 15.74 9.07L9.82 15.01C9.41 15.4 8.78 15.4 8.38 15.01Z" fill="#582be8"></path>
+</svg></h1> 
                 <p className="subtitle small">
-                  I'm a software engineer in Islamabad,Pakistan. I love building
+                  I'm a software engineer in Islamabad Pakistan. I love building
                   open-source <Link to="/projects">projects</Link> and{' '}
                   <Link to="/blog">writing</Link> about what I learn. This
                   website is my digital garden—a compendium of the things I've
@@ -77,6 +79,7 @@ export default function WebsiteIndex({ data }) {
             </p>
           </div>
         </header>
+ 
         <div className="container">
           <h2 className="main-header">
             <span>Latest Articles</span> <Link to="/blog">View All</Link>
@@ -89,7 +92,7 @@ export default function WebsiteIndex({ data }) {
           <Posts data={simplifiedHighlights} yearOnly /> */}
 
           <h2 className="main-header">
-            <span>Open Source Projects/Ideas</span> <Link to="/projects">View All</Link>
+            <span>Open Source Projects</span> <Link to="/projects">View All</Link>
           </h2>
           <ProjectListing projects={projects} />
 
