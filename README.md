@@ -1,5 +1,4 @@
-<h2> Hello There 
- <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"></h2>
+# Hi there 👋
 
  I'm the founder of [Sarmad Digital](https://sarmadgardezi.com/) - I build bespoke solutions that use the capabilities and the features of Google services for automating business processes and driving business productivity.
 
