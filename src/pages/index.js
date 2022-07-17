@@ -36,7 +36,7 @@ export default function WebsiteIndex({ data }) {
 
   return (
     <>
-      <Helmet title='Sarmad Gardezi - a Digital Creator'
+      <Helmet title='Sarmad Gardezi - A Full Stack Developer'
        />
       <SEO /> 
       <article className="hero">
