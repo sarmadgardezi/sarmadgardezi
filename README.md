@@ -1,13 +1,6 @@
 # Hi there 👋
 
  I'm the founder of [Sarmad Digital](https://sarmadgardezi.com/) - I build bespoke solutions that use the capabilities and the features of Google services for automating business processes and driving business productivity.
-
-## 👯 Communities
-- SZAB Google Developer Student Club (DSC) - Lead (2020 - 2021)
-- Global AI Hub - Core Team (2021 - 2023)
-- Google Cloud Developer - (2019 - 2021)
-- Facebook Developer Circle - Core Team (2019 - 2022)
-- GDG Cloud Islamabad - Core Team (2020 - ♾)
  
 ## ⚡ More Details
 🏢  &nbsp; I have developed several popular Websites & Custom Scripts, that are deployed in some of the biggest companies & universities in Pakistan.
