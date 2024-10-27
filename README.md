@@ -1,6 +1,6 @@
 # Sarmad Gardezi
 
-[![Twitter](https://img.shields.io/badge/Twitter-black.svg?logo=X&logoColor=white&style=flat)](https://x.com/sarmadgardezi) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white&style=flat)](https://www.youtube.com/channel/UCoSXVRD0tdj_yja6xbMHcng) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white&style=flat)](https://linkedin.com/in/sarmadgardezi) 
+[![Twitter](https://img.shields.io/badge/Twitter-black.svg?logo=X&logoColor=white&style=flat)](https://x.com/sarmadgardezi) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white&style=flat)](https://www.youtube.com/c/sarmadgardezi) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white&style=flat)](https://linkedin.com/in/sarmadgardezi) 
 
 👋🏻  &nbsp; I am the founder of [Sarmad Digital](https://sarmadgardezi.com/) - offering 360° marketing solutions, specializing in high-performance websites, brand-building, and digital innovation for businesses worldwide.
 
