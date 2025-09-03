@@ -4,10 +4,6 @@
 
 🎉  &nbsp; I am a **Google Developer Expert** and the **Core Team Lead** for Google Developer Groups CLOUD Islamabad. I actively contribute to the tech community and am passionate about leveraging technology for impactful growth.
 
-🏢  &nbsp; I have a strong portfolio in web development, particularly in Next.js and WordPress, with a deep focus on enhancing user experience and optimizing website performance for impactful results.
-
-✍️  &nbsp; As a digital creator and technology enthusiast, I share insights on development, SEO, and digital marketing, empowering businesses to thrive online.
-
 🌱  &nbsp; My tech stack includes JavaScript, Next.js, WordPress, Docker, and tools like Google Cloud for serverless deployments. I also have a solid grasp of SEO to help clients improve their online visibility and reach.
 
 ## Connect with Sarmad
