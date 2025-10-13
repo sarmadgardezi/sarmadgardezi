@@ -1,6 +1,6 @@
 # Sarmad Gardezi
 
-👋🏻  &nbsp; I am the founder of [Sarmad Digital](https://sarmadgardezi.com/) - offering 360° marketing solutions, specializing in high-performance websites, brand-building, and digital innovation for businesses worldwide.
+👋🏻  &nbsp; I am the founder of - offering 360° marketing solutions, specializing in high-performance websites, brand-building, and digital innovation for businesses worldwide.
 
 🎉  &nbsp; I am a **Google Developer Expert** and the **Core Team Lead** for Google Developer Groups CLOUD Islamabad. I actively contribute to the tech community and am passionate about leveraging technology for impactful growth.
 
