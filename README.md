@@ -2,7 +2,7 @@
 
 👋🏻  &nbsp; I am the founder of - offering 360° marketing solutions, specializing in high-performance websites, brand-building, and digital innovation for businesses worldwide.
 
-🎉  &nbsp; I am a **Google Developer Expert** and the **Core Team Lead** for Google Developer Groups CLOUD Islamabad. I actively contribute to the tech community and am passionate about leveraging technology for impactful growth.
+🎉  &nbsp; I am a **Google Developer Expert** and the **Associate Manager** for Google Developer Groups CLOUD Islamabad. I actively contribute to the tech community and am passionate about leveraging technology for impactful growth.
 
 🌱  &nbsp; My tech stack includes JavaScript, Next.js, WordPress, Docker, and tools like Google Cloud for serverless deployments. I also have a solid grasp of SEO to help clients improve their online visibility and reach.
 
